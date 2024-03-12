@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   title: "JerryLuuuu's personal website"
@@ -7,7 +8,9 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: cv-acadmic-Yen-Chia_Lu(Jerry).pdf
+        text: CV
+        
 
 format:
   html:
@@ -15,5 +18,4 @@ format:
     css: styles.css
     toc: true
 
-editor: visual
 
